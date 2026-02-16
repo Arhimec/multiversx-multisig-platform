@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+contract/output/
+contract/target/
+contract/wasm/target/
+contract/meta/target/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Security - NEVER commit these
+*.pem
+*.keystore
+*.json.key
+wallet.pem
+wallet.json
+keystore.json
+
+# Vercel
+.vercel/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+.vercel

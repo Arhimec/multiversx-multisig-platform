@@ -1,0 +1,20 @@
+{
+  "name": "multiversx-multisig-platform",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A modern, elegant multi-signature wallet platform built on the MultiversX blockchain.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@multiversx/sdk-core": "^15.3.2",
+    "@multiversx/sdk-network-providers": "^2.9.3"
+  }
+}
